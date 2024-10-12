@@ -23,13 +23,15 @@ const Hero = () => {
                 <button className=' px-10 py-2 border rounded-md bg-red-600 text-white text-sm'>Shop Now</button>
                 <button className=' px-8 py-2 border-black border rounded-md flex gap-2 items-center text-sm'><img className='text-sm'src={watch} alt="logo" />Watch Now</button>
             </div>
-            <div className='flex mt-40'>
+            <div className='flex mt-44 items-center gap-2 self-end'>
+                <div className='flex -space-x-4 [&>img]:border-white [&>img]:border-4 [&>img]:rounded-full'>
                 <img src={profile1} alt="logo" />
                 <img src={profile2} alt="logo" />
                 <img src={profile3} alt="logo" />
                 <img src={profile4} alt="logo" />
+                </div>
 
-                <p>Trusted by 100+ farmers, loved by gardeners.</p>
+                <p className='text-xs text-gray-500'>Trusted by 100+ farmers, loved by gardeners.</p>
 
             </div>
 
