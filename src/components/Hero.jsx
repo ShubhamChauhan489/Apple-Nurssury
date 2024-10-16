@@ -8,7 +8,7 @@ import profile4 from "../../asssets/images/Ellipse 4.png"
 
 const Hero = () => {
   return (
-    <div className='flex h-screen justify-center items-center'>
+    <div id='home' className='flex h-screen justify-center items-center'>
         <div className='w-1/2'>
             <img className='w-full h-screen object-cover' src={mainImg} alt="img"  />
         </div>

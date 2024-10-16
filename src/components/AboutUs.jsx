@@ -8,7 +8,7 @@ import NaturalSVG from "../../asssets/icons/natural.png"
 
 const AboutUs = () => {
   return (
-    <div className="mt-36 flex flex-col justify-center items-center ">
+    <div id="about" className="mt-36 flex flex-col justify-center items-center ">
       <div className="w-1/2 text-center">
         <h2 className="font-medium text-4xl">
           <spam className="text-red-500">Our Passion:</spam> Helping You
